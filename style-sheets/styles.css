@@ -1,0 +1,20 @@
+.card {
+    height: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    width: 288px;
+    margin-right: 5px;
+}
+
+.card img {
+    height: 100%;
+    user-select: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
