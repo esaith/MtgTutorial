@@ -1,11 +1,16 @@
 .card {
     height: 400px;
     padding: 5px;
-    background-color: #ccc;
+    background-color: #ccc#ccc;
     width: 288px;
     margin-right: 5px;
 }
 
+.card.dead {
+    background-color: red;
+    opacity: 0;
+    transition: all 1s;
+}
 .card img {
     height: 100%;
     user-select: none;
